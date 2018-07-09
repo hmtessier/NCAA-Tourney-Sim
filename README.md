@@ -1,14 +1,14 @@
 # NCAA-Tourney-Sim
 Pulls up to date NCAA basketball statistics and simulates games and tournaments
 
-### BracketModel.py File
-    Runs a Monte Carlo Simulation of a specific region of a tournament (16 team sim) 
+### BracketModel.py File 
+   Runs a Monte Carlo Simulation of a specific region of a tournament (16 team sim) 
 
 ### FinalFourSim.py File
-    Runs a simulation of the Final Four (4 team sim)
+   Runs a simulation of the Final Four (4 team sim)
     
 ### TeamComparison.py File
-    Calculates single game win probabilities (2 game sim)
+   Calculates single game win probabilities (2 game sim)
     
 #### Entering Team Names:
   Team names follow KenPom naming conventions with following additional changes -
@@ -17,7 +17,7 @@ Pulls up to date NCAA basketball statistics and simulates games and tournaments
   
   Periods, apostrophes, ampersands, and other symbols are removed
       
-  Examples:
+  #### Examples:
   
   Virginia should be entered as “Virginia”
   
