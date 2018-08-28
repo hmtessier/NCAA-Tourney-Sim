@@ -8,7 +8,7 @@ Pulls up to date NCAA basketball statistics and simulates games and tournaments
    Runs a simulation of the Final Four (4 team sim)
     
 ## TeamComparison.py File
-   Calculates single game win probabilities (2 game sim)
+   Calculates single game win probabilities (2 team sim)
     
 ### Entering Team Names:
   Team names follow KenPom naming conventions with following additional changes -
