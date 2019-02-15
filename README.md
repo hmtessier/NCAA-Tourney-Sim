@@ -1,3 +1,5 @@
+# Year vars in data scrape need to be changed from 2018 to current year
+
 # NCAA-Tourney-Sim
 Pulls up to date NCAA basketball statistics and simulates games and tournaments
 
