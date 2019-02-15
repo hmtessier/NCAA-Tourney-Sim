@@ -113,7 +113,7 @@ while True:
         print(Team1, "ELO:" , round(ELO1,4))
         print(Team2, "ELO:" , round(ELO2,4))
         m = abs(ELO1 - ELO2)
-        A = (1/(1+10**(m/30)))
+        A = (1/(1+10**(m/23)))
         print("Odds of", high,  "winning:" , round((1-A)*100,2),"%")
     
     while True:
