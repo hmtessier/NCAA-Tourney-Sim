@@ -99,7 +99,7 @@ def sim_game(Team1, Team2):
     ELO1 = ((df.loc[Team1].AdjEM + 40) + ((df.loc[Team1].SOS_Pyth + 15) * df.loc[Team1].WLPercentage))    
     ELO2 = ((df.loc[Team2].AdjEM + 40) + ((df.loc[Team2].SOS_Pyth + 15) * df.loc[Team2].WLPercentage))
     m = ELO1 - ELO2
-    A = (1/(1+10**(abs(m)/30)))
+    A = (1/(1+10**(abs(m)/23)))
     odds = (1-A)
     if m < 0:
         odds = (1-odds)
